@@ -1,7 +1,8 @@
 # Active Directory Lab
-## Description
+## Introduction
+### Description
 This project's goal is to set up and configure an isolated virtual network environment. It will be used to simulate a small network that uses Active Directory Domain Services. Sample user accounts will be created and then organized under Organizational Units (OUs). Finally, the sample accounts will have various settings configured by applying Group Policy Objects (GPOs) to the OUs.
-## Tools & Technologies
+### Tools & Technologies
 * VMware Workstation Pro
   * Download: [broadcom.com/group/ecx/free-downloads](https://support.broadcom.com/group/ecx/free-downloads) (requires login)
 * Windows Server 2022
