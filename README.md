@@ -5,9 +5,9 @@ This project's goal is to set up and configure an isolated virtual network envir
 ### Downloadables
 * VMware Workstation Pro
   * Download: [broadcom.com/group/ecx/free-downloads](https://support.broadcom.com/group/ecx/free-downloads) (requires login)
-* Windows Server 2022
+* Windows Server 2022 (64-bit edition)
   * Download: [microsoft.com/en-us/evalcenter/download-windows-server-2022](https://www.microsoft.com/en-us/evalcenter/download-windows-server-2022)
-* Windows 11 Enterprise
+* Windows 11 Enterprise (64-bit edition)
   * Download: [microsoft.com/en-us/evalcenter/download-windows-11-enterprise](https://www.microsoft.com/en-us/evalcenter/download-windows-11-enterprise)
 ## 1. Setup Steps
 ### a. Download the Necessary Files
