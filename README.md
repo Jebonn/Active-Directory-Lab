@@ -11,5 +11,5 @@ This project's goal is to set up and configure an isolated virtual network envir
   * Download: [microsoft.com/en-us/software-download/windows11](https://www.microsoft.com/en-us/software-download/windows11)
 ## 1. Setup Steps
 ### A. Download the Necessary Files
-Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .ISO file mentioned in the [Downloadables](#downloadables) section.
+Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .ISO file mentioned in the [Downloadables](#downloadables) section above.
 ### B. Install VMWare Workstation Pro
