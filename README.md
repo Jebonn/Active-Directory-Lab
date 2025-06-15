@@ -12,6 +12,6 @@ This lab's goal is become acquainted with virtual machines, active directory, an
 ## 1. Setup Steps
 ### a. Download & Install
 Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .ISO file mentioned in the [Downloadables](#downloadables) section above. Then run the VMWare .exe file. An installation pop-up window will appear. Continue clicking "Next" through the installation pop-up windows to install. The default configurations during this process can be left as it is.
-![VMware installation .exe file](/Pictures/1a.png)
+
 ### b. Create the Virtual Machines
 * After installation, open VMware Workstation and click "Create a New Virtual Machine".
