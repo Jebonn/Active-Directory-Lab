@@ -3,8 +3,8 @@
 ### Objective
 This lab's goal is to become acquainted with virtual machines (VMs), active directory, and group policy concepts. To reach that goal, a virtual network environment will be set up using VMWare's hypervisor software and it will be used to simulate a small network that uses Active Directory Domain Services (AD DS). Sample user accounts will be created and then logically grouped under Organizational Units (OUs). Finally, the sample accounts will have various settings configured by applying Group Policy Objects (GPOs) to the OUs.
 ### Recommended Minimum Host Hardware
-* 256 GB Disk Space
-* 12 GB RAM
+* 96 GB of available disk space
+* 8 GB RAM
 * 6 Core CPU
 
 ### Downloadables
