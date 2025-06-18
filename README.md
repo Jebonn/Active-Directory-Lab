@@ -29,8 +29,6 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 8. A minimum of 2 GB RAM and 2 CPU cores should be chosen. Click "Finish" to create the VM.
 9. *(Optional) more RAM and cores may be allocated to help speed up the installation process of Windows Server 2022 and Active Directory in the next couple of steps. Once installed, the allocation can be reverted back.*
 
-> https://github.com/user-attachments/assets/c75774ee-c3c5-49ea-a81f-b579ff695e59
-
 ## 4. Install Windows Server 2022
 1. After creating the VM, click on "Edit virtual machine settings".
 2. In the Settings window, select "CD/DVD (SATA)". Choose the "Use ISO image file" option and click "Browse". Navigate to where the Windows Server ISO file was downloaded and select it.
