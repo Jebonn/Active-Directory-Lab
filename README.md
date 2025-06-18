@@ -52,3 +52,5 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 8. Choose the "Custom" install option. *(The "Upgrade" option is when there's an existing OS on the computer)*
 9. Then it will ask where to install the OS. There should only one Drive shown. Simply click "Next" to start the installation.
 10. Once the installtion is complete, enter a password for the Administrator account. Then click "Finish".
+
+## 5. Install Active Directory on Windows Server
