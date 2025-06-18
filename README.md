@@ -35,5 +35,12 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 1. After creating the VM, click on "Edit virtual machine settings".
 2. In the Settings window, select "CD/DVD (SATA)". Choose the "Use ISO image file" option and click "Browse". Navigate to where the Windows Server ISO file was downloaded and select it.
 3. Click "OK" to close the Settings window. Then click on "Power on this virtual machine".
-4. Quickly press any key to boot using the mounted ISO file. *(NOTE: If you missed this, it will time out. You can restart the VM by right-clicking on it and go to Power > Shut Down)*
+4. Quickly press any key to boot using the mounted ISO file. *(NOTE: If you missed this, it will time out. The VM can be restarted by right-clicking on it and go to Power > Power Off)*
 > ![boot timeout](/images/boot-timeout.png)
+
+5. If successful, a setup screen will be shown where the preferred language/time and currency/keyboard settings can be chosen. Click "Next", then click "Install".
+6. Choose the "Standard Evaluation (Desktop Experience)" option. *(Desktop Experience provides a graphical user interface to manage AD, instead of a command line interface)*
+7. Accept the License Terms.
+8. Choose the "Custom" install option. *(The "Upgrade" option is when there's an existing OS on the computer)*
+9. Then it will ask where to install the OS. There should only one Drive shown. Simply click "Next" to start the installation.
+10. Once the installtion is complete, enter a password for the Administrator account. Then click "Finish".
