@@ -30,7 +30,7 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 
 > *(Optional) more RAM and cores may be allocated to help speed up the installation process of the operating systems and Active Directory in the later steps. Once installed, the allocation can be reverted back.*
 
-9. Once the first VM has been made, click on the "Home" tab and repeat steps 2 - 4.
+9. Once the first VM has been made, create the second VM by clicking on the "Home" tab and repeat steps 2 - 4.
 10. This time, choose Windows 11 x64 instead of Windows Server.
 11. The name and location of the Windows 11 VM can be left as is.
 12. The OS requires a password for encryption. Choose or generate a password and copy it. Since this is a lab, the password can be pasted onto the VM's description for convenience.
