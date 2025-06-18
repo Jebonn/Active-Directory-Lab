@@ -22,12 +22,14 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 1. After installing VMWare Workstation, run the program.
 2. Click "Create a New Virtual Machine".
 3. Choose the "Typical (recommended)" option.
-4. Choose "I will install the operating system later." option.
+4. Choose the "I will install the operating system later." option.
 5. Select Microsoft Windows and select Windows Server 2022.
 6. The name and location of the VM can be left as is.
 7. Use 32 GB for the disk size (Microsoft recommends 32 GB as the absolute minimum).
 8. A minimum of 2 GB RAM and 2 CPU cores should be chosen. Click "Finish" to create the VM.
 9. *(Optional) more RAM and cores may be allocated to help speed up the installation process of Windows Server 2022 and Active Directory in the next couple of steps. Once installed, the allocation can be reverted back.*
+
+> https://github.com/user-attachments/assets/d65baac2-23f2-41c7-87d6-858bd6306dc8
 
 ## 4. Install Windows Server 2022
 1. After creating the VM, click on "Edit virtual machine settings".
