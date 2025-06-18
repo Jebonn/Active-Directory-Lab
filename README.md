@@ -39,7 +39,7 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 > ![boot timeout](/images/boot-timeout.png)
 
 5. If successful, a setup screen will be shown where the preferred language/time and currency/keyboard settings can be chosen. Click "Next", then click "Install".
-6. Choose the "Standard Evaluation (Desktop Experience)" option. *(Desktop Experience provides a graphical user interface to manage AD, instead of a command line interface)*
+6. Choose the "Standard Evaluation (Desktop Experience)" option. *(Desktop Experience provides a graphical user interface to manage AD rather than a command line interface)*
 7. Accept the License Terms.
 8. Choose the "Custom" install option. *(The "Upgrade" option is when there's an existing OS on the computer)*
 9. Then it will ask where to install the OS. There should only one Drive shown. Simply click "Next" to start the installation.
