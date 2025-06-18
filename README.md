@@ -1,7 +1,7 @@
 # Active Directory Lab
 ## 1. Introduction
 ### Objective
-This lab's goal is to become acquainted with virtual machines, active directory, and group policy concepts. To reach that goal, a virtual network environment will be set up using VMWare's hypervisor software and it will be used to simulate a small network that uses Active Directory Domain Services (AD DS). Sample user accounts will be created and then logically grouped under Organizational Units (OUs). Finally, the sample accounts will have various settings configured by applying Group Policy Objects (GPOs) to the OUs.
+This lab's goal is to become acquainted with virtual machines (VMs), active directory, and group policy concepts. To reach that goal, a virtual network environment will be set up using VMWare's hypervisor software and it will be used to simulate a small network that uses Active Directory Domain Services (AD DS). Sample user accounts will be created and then logically grouped under Organizational Units (OUs). Finally, the sample accounts will have various settings configured by applying Group Policy Objects (GPOs) to the OUs.
 ### Recommended Minimum Host Hardware
 * 256 GB Disk Space
 * 12 GB RAM
@@ -32,4 +32,8 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 > https://github.com/user-attachments/assets/c75774ee-c3c5-49ea-a81f-b579ff695e59
 
 ## 4. Install Windows Server 2022
-
+1. After creating the VM, click on "Edit virtual machine settings".
+2. In the Settings window, select "CD/DVD (SATA)". Choose the "Use ISO image file" option and click "Browse". Navigate to where the Windows Server ISO file was downloaded and select it.
+3. Click "OK" to close the Settings window. Then click on "Power on this virtual machine".
+4. Quickly press any key to boot using the mounted ISO file. *(NOTE: If you missed this, it will time out. You can restart the VM by right-clicking on it and go to Power > Shut Down)*
+> ![boot time out](/images/boot-timeout.png)
