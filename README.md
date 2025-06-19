@@ -60,6 +60,6 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 2. In the top right hand side, click on "Manage" -> "Add Roles and Features".
 3. The Add Roles and Features Wizard will pop-up. Click "Next".
 4. Choose the "Role-based or feature-based installation" option.
-5. Sever Selection can be left as is.
+5. Server Selection can be left as is.
 6. Check the "Active Directory Domain Services" box. A pop-up will appear showing other tools that will necessary along with AD DS. Click "Add Features".
 7. Continue to click "Next" and install AD DS. This may take a few minutes.
