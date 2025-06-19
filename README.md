@@ -43,7 +43,7 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 1. After creating the two VMs, select the Windows Server VM and click on "Edit virtual machine settings".
 2. In the Settings window, select "CD/DVD (SATA)". Choose the "Use ISO image file" option and click "Browse". Navigate to where the Windows Server ISO file was downloaded and select it.
 3. Click "OK" to close the Settings window. Then click on "Power on this virtual machine".
-4. Quickly press any key to boot using the mounted ISO file. *(NOTE: If you missed this, it will time out. The VM can be restarted by right-clicking on it then go to Power > Shut Down)*
+4. Quickly press any key to boot using the mounted ISO file. *(NOTE: If you missed this, it will time out. The VM can be restarted by right-clicking on it then go to Power -> Shut Down)*
 > ![boot timeout](/images/boot-timeout.png)
 
 5. If successful, a setup screen will be shown where the preferred language/time and currency/keyboard settings can be chosen. Click "Next", then click "Install".
@@ -56,3 +56,10 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 > https://github.com/user-attachments/assets/4695c348-63c0-4caa-9c05-eb228fdd9767
 
 ## 5. Install Active Directory on Windows Server
+1. Login to the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
+2. In the top right hand side, click on "Manage" -> "Add Roles and Features".
+3. The Add Roles and Features Wizard will pop-up. Click "Next".
+4. Choose the "Role-based or feature-based installation" option.
+5. Sever Selection can be left as is.
+6. Check the "Active Directory Domain Services" box. A pop-up will appear showing other tools that will necessary along with AD DS. Click "Add Features".
+7. Continue to click "Next" and install AD DS. This may take a few minutes.
