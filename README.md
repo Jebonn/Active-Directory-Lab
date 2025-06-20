@@ -56,7 +56,7 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 https://github.com/user-attachments/assets/c855394c-b0da-45b8-9b8e-fc1b8fa08600
 
 ## 5. Install Active Directory on Windows Server
-1. Login to the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
+1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
 2. In the top right hand side, click on "Manage" -> "Add Roles and Features".
 3. The Add Roles and Features Wizard will pop-up. Click "Next".
 4. Choose the "Role-based or feature-based installation" option.
