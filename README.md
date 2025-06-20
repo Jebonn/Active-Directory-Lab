@@ -61,5 +61,5 @@ https://github.com/user-attachments/assets/c855394c-b0da-45b8-9b8e-fc1b8fa08600
 3. The Add Roles and Features Wizard will pop-up. Click "Next".
 4. Choose the "Role-based or feature-based installation" option.
 5. Server Selection can be left as is.
-6. Check the "Active Directory Domain Services" box. A pop-up will appear showing other tools that will necessary along with AD DS. Click "Add Features".
+6. Check the "Active Directory Domain Services" box. A pop-up will appear showing other necessary tools along with AD DS. Click "Add Features".
 7. Continue clicking "Next" and install AD DS. This may take a few minutes.
