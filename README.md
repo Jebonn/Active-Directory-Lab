@@ -27,9 +27,6 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 6. The name and location of the VM can be left as is.
 7. Use 32 GB for the disk size (Microsoft recommends 32 GB as the minimum).
 8. A minimum of **2 GB of memory and 2 CPU cores** should be chosen. Click "Finish" to create the VM.
-
-> *(Optional) more RAM and cores may be allocated to help speed up the installation process of the operating systems and Active Directory in the later steps. Once installed, the allocation can be reverted back.*
-
 9. Once the first VM has been made, create the second VM by clicking on the "Home" tab and repeat steps 2 - 4.
 10. This time, choose Windows 11 x64 instead of Windows Server.
 11. The name and location of the Windows 11 VM can be left as is.
