@@ -33,7 +33,7 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 9. Once the first VM has been made, create the second VM by clicking on the "Home" tab and repeat steps 2 - 4.
 10. This time, choose Windows 11 x64 instead of Windows Server.
 11. The name and location of the Windows 11 VM can be left as is.
-12. The OS requires a password for encryption. Choose or generate a password and copy it. Since this is a lab, the password can be pasted onto the VM's description for convenience.
+12. The OS requires a password for encryption. Create or generate a password.
 13. Use 64 GB for the disk size (Microsoft recommends 64 GB as the minimum).
 14. A minimum of **4 GB of memory and 2 CPU cores** should be chosen. Click "Finish" to create the VM.
 
