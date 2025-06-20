@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 
 ## 4. Install Windows Server 2022
 1. After creating the two VMs, select the Windows Server VM and click on "Edit virtual machine settings".
-2. In the Settings window, select "CD/DVD (SATA)". Choose the "Use ISO image file" option and click "Browse". Navigate to where the Windows Server ISO file was downloaded and select it.
+2. Select "CD/DVD (SATA)". Choose the "Use ISO image file" option and click "Browse". Select the downloaded Windows Server ISO file.
 3. Click "OK" to close the Settings window. Then click on "Power on this virtual machine".
 4. Quickly press any key to boot using the mounted ISO file otherwise the VM will timeout. *(NOTE: Restart by right-clicking on the VM then go to Power -> Shut Down)*
 > ![boot timeout](/images/boot-timeout.png)
@@ -51,7 +51,9 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 7. Accept the License Terms.
 8. Choose the "Custom" install option. *(The "Upgrade" option is when there's an existing OS on the computer)*
 9. Then it will ask where to install the OS. There should only one Drive shown. Simply click "Next" to start the installation.
-10. The installation may take a few minutes. Once it is complete the VM will restart and will ask for a password for the Administrator account. Create a password then click "Finish".
+10. The installation may take a few minutes. Once complete the VM will restart. Create a password the Admin account then click "Finish".
+
+https://github.com/user-attachments/assets/c855394c-b0da-45b8-9b8e-fc1b8fa08600
 
 ## 5. Install Active Directory on Windows Server
 1. Login to the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
