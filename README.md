@@ -54,9 +54,11 @@ https://github.com/user-attachments/assets/c855394c-b0da-45b8-9b8e-fc1b8fa08600
 
 ## 5. Install Active Directory on Windows Server
 1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
-2. In the top right hand side, click on "Manage" -> "Add Roles and Features".
-3. The Add Roles and Features Wizard will pop-up. Click "Next".
-4. Choose the "Role-based or feature-based installation" option.
-5. Server Selection can be left as is.
-6. Check the "Active Directory Domain Services" box. A pop-up will appear showing other necessary tools along with AD DS. Click "Add Features".
-7. Continue clicking "Next" and install AD DS. This may take a few minutes.
+*(Optional: After log in, install VMWare Tools to have the VM automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file.)*
+
+3. In the top right hand side, click on "Manage" -> "Add Roles and Features".
+4. The Add Roles and Features Wizard will pop-up. Click "Next".
+5. Choose the "Role-based or feature-based installation" option.
+6. Server Selection can be left as is.
+7. Check the "Active Directory Domain Services" box. A pop-up will appear showing other necessary tools along with AD DS. Click "Add Features".
+8. Continue clicking "Next" and install AD DS. This may take a few minutes.
