@@ -68,3 +68,7 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 > https://github.com/user-attachments/assets/2b898f4a-b2e2-4456-8214-670548899bb0
 
 ## 6. Promote Server to Domain Controller
+1. In the top right of Server Manager, click the flag icon. Click on "Promote this server to a domain controller".
+2. Choose "Add a new forest". Choose a root domain name such as "ad.mydomain.com".
+3. Create a Directory Servicdes Restore Mode (DSRM) password. (Used to restore from backups, unlikely to be needed)
+4. Continue clicking "Next" and install. After installation, the VM will restart.
