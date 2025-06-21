@@ -55,7 +55,7 @@ https://github.com/user-attachments/assets/c855394c-b0da-45b8-9b8e-fc1b8fa08600
 ## 5. Install Active Directory on Windows Server
 1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
 
-*(Optional: After log in, install VMWare Tools to have the VM automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file.)*
+*(Optional: After log in, install VMWare Tools so that VMWare will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file.)*
 > ![vmware-tools-install-pic](/images/vmtools-install-pics.jpg)
 
 2. In the top right hand side, click on "Manage" -> "Add Roles and Features".
