@@ -50,7 +50,7 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 9. Then it will ask where to install the OS. There should only one Drive shown. Simply click "Next" to start the installation.
 10. The installation may take a few minutes. Once complete the VM will restart. Create a password the Admin account then click "Finish".
 
-https://github.com/user-attachments/assets/c855394c-b0da-45b8-9b8e-fc1b8fa08600
+> https://github.com/user-attachments/assets/c855394c-b0da-45b8-9b8e-fc1b8fa08600
 
 ## 5. Install Active Directory on Windows Server
 1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
@@ -64,3 +64,7 @@ https://github.com/user-attachments/assets/c855394c-b0da-45b8-9b8e-fc1b8fa08600
 5. Server Selection can be left as is.
 6. Check the "Active Directory Domain Services" box. A pop-up will appear showing other necessary tools along with AD DS. Click "Add Features".
 7. Continue clicking "Next" and install AD DS. This may take a few minutes.
+
+> https://github.com/user-attachments/assets/2b898f4a-b2e2-4456-8214-670548899bb0
+
+## 6. Promote Server to Domain Controller
