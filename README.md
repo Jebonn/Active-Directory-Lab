@@ -52,7 +52,7 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 
 > https://github.com/user-attachments/assets/c855394c-b0da-45b8-9b8e-fc1b8fa08600
 
-## 5. Install Active Directory on Windows Server
+## 5. Install Active Directory Domain Services (AD DS) on Windows Server
 1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
 
 *(Optional: After log in, install VMWare Tools so that VMWare will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file.)*
@@ -75,4 +75,9 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 
 > https://github.com/user-attachments/assets/869bb627-6cb8-4039-84cf-465b0c38c149
 
-## 7. Create Organization Units (OUs)
+## 7. Create Organization Units (OUs) & User Accounts
+Log into the Admin account. Now that AD DS has been installed and the server has been promoted to a Domain Controller (DC), OUs and user accounts can be created.
+
+1. In the Server Manager, click on "Tools" in the upper right, then click on the "Active Directory Users & Computers" tool.
+2. Right-click on the domain and go to New -> Organization Unit. Choose a name for the OU such as "Sales". *(OUs can represent different departments or locations of a business)*
+3. Right-click on the newly created OU and this time create a new user.
