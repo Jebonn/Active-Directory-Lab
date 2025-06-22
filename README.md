@@ -81,4 +81,7 @@ Log into the Admin account. Now that AD DS has been installed and the server has
 1. In the Server Manager, click on "Tools" in the upper right, then click on the "Active Directory Users & Computers" tool.
 2. Right-click on the domain and go to New -> Organization Unit. Choose a name for the OU such as "Sales". *(OUs can represent different departments or locations of a business)*
 3. Right-click on the newly created OU and this time create a new user.
-4. Create other users and other OUs such as "Customer Support" or "Accounting" by repeating steps 2-3 a couple more times. 
+4. Create other users and other OUs such as "Customer Support" or "Accounting" by repeating steps 2-3 a couple more times.
+
+## Install Windows 11
+1.
