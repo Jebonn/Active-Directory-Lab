@@ -74,3 +74,5 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 4. Continue clicking "Next" and install. After installation, the VM will restart.
 
 > https://github.com/user-attachments/assets/869bb627-6cb8-4039-84cf-465b0c38c149
+
+## 7. Create Organization Units (OUs)
