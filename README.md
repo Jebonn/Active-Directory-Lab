@@ -83,5 +83,5 @@ Log into the Admin account. Now that AD DS has been installed and the server has
 3. Right-click on the newly created OU and this time create a new user.
 4. Create other users and other OUs such as "Customer Support" or "Accounting" by repeating steps 2-3 a couple more times.
 
-## Install Windows 11
+## 8. Install Windows 11
 1.
