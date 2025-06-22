@@ -72,3 +72,5 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 2. Choose "Add a new forest". Choose a root domain name such as "ad.mydomain.com".
 3. Create a Directory Servicdes Restore Mode (DSRM) password. (Used to restore from backups, unlikely to be needed)
 4. Continue clicking "Next" and install. After installation, the VM will restart.
+
+> https://github.com/user-attachments/assets/869bb627-6cb8-4039-84cf-465b0c38c149
