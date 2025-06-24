@@ -41,7 +41,7 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 2. Select "CD/DVD (SATA)". Choose the "Use ISO image file" option and click "Browse". Select the downloaded Windows Server ISO file.
 3. Click "OK" to close the Settings window. Then click on "Power on this virtual machine".
 4. Quickly press any key to boot using the mounted ISO file otherwise the VM will timeout. *(NOTE: Restart by right-clicking on the VM then go to Power -> Shut Down)*
-> ![boot timeout](/images/boot-timeout.png)
+> ![boot timeout](/images/4.png)
 
 5. If successful, a setup screen will be shown where the preferred language/time and currency/keyboard settings can be chosen. Click "Next", then click "Install".
 6. Choose the "Standard Evaluation (Desktop Experience)" option. *(Desktop Experience provides a graphical user interface to manage AD rather than a command line interface)*
