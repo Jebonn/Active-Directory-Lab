@@ -17,7 +17,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 ## 2. Download & Install
 Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .ISO file mentioned in the [Downloadables](#downloadables) section above. Then run the VMWare .exe file. An installation pop-up window will appear. Click "Next" and check the License Agreemeent box, then continue clicking "Next" through the rest of the installation pop-up windows to install. The default configurations during this process can be left as is or customized to preference.
 
-> ![VMWare Installation Steps](/images/1a.png)
+> ![VMWare Installation Steps](/images/1.png)
 ## 3. Create two Virtual Machines
 1. After installing VMWare Workstation, run the program.
 2. Click "Create a New Virtual Machine".
@@ -56,7 +56,7 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
 
 *(Optional: After log in, install VMWare Tools so that VMWare will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file.)*
-> ![vmware-tools-install-pic](/images/vmtools-install-pics.jpg)
+> ![vmware-tools-install-pic](/images/5.jpg)
 
 2. In the top right hand side, click on "Manage" -> "Add Roles and Features".
 3. The Add Roles and Features Wizard will pop-up. Click "Next".
