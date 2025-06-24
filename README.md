@@ -22,6 +22,10 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 > ![VMWare Installation Steps](/images/Part2.png)
 ## 3. Create two Virtual Machines
 1. Click "Create a New Virtual Machine" and choose the "Typical (recommended)" option.
+<p float="left">
+  <img src="/images/Part3-Step1a.jpg" width="500"/>
+  <img src="/images/Part3-Step1b.jpg" width="500"/> 
+</p align="middle">
 2. Choose the "I will install the operating system later." option.
 3. Select Microsoft Windows and select Windows Server 2022.
 4. The name and location of the VM can be left as is.
