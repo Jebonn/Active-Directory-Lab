@@ -18,22 +18,21 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 1. Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .ISO file mentioned in the [Downloadables](#downloadables) section above.
 2. Run VMWare .exe file. An installation pop-up window will appear. Click "Next" and check the License Agreemeent box.
 3. Then continue clicking "Next" through the rest of the installation pop-up windows to install. The default configurations during this process can be left as is or customized to preference.
-4. Once installation is complete, click "Finish". 
+4. Once installation is complete, click "Finish" and open the program.
 > ![VMWare Installation Steps](/images/1.png)
 ## 3. Create two Virtual Machines
-1. After installing VMWare Workstation, run the program.
-2. Click "Create a New Virtual Machine" and choose the "Typical (recommended)" option.
-3. Choose the "I will install the operating system later." option.
-4. Select Microsoft Windows and select Windows Server 2022.
-5. The name and location of the VM can be left as is.
-6. Use 32 GB for the disk size (Microsoft recommends 32 GB as the minimum).
-7. A minimum of **2 GB of memory and 2 CPU cores** should be chosen. Click "Finish" to create the VM.
-8. Once the first VM has been made, create the second VM by clicking on the "Home" tab and repeat steps 2 - 4.
-9. This time, choose Windows 11 x64 instead of Windows Server.
-10. The name and location of the Windows 11 VM can be left as is.
-11. The OS requires a password that will be used for encrpytion. Create a password and keep it somewhere safe.
-12. Use 64 GB for the disk size (Microsoft recommends 64 GB as the minimum).
-13. A minimum of **4 GB of memory and 2 CPU cores** should be chosen. Click "Finish" to create the VM.
+1. Click "Create a New Virtual Machine" and choose the "Typical (recommended)" option.
+2. Choose the "I will install the operating system later." option.
+3. Select Microsoft Windows and select Windows Server 2022.
+4. The name and location of the VM can be left as is.
+5. Use 32 GB for the disk size (Microsoft recommends 32 GB as the minimum).
+6. A minimum of **2 GB of memory and 2 CPU cores** should be chosen. Click "Finish" to create the VM.
+7. Once the first VM has been made, create the second VM by clicking on the "Home" tab and repeat steps 1 and 2.
+8. This time, select Windows 11 x64 instead of Windows Server.
+9. The name and location of the Windows 11 VM can be left as is.
+10. The OS requires a password that will be used for encrpytion. Create a password and keep it somewhere safe.
+11. Use 64 GB for the disk size (Microsoft recommends 64 GB as the minimum).
+12. A minimum of **4 GB of memory and 2 CPU cores** should be chosen. Click "Finish" to create the VM.
 
 ## 4. Install Windows Server 2022
 1. After creating the two VMs, select the Windows Server VM and click on "Edit virtual machine settings".
