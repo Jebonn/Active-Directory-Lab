@@ -34,8 +34,6 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 13. Use 64 GB for the disk size (Microsoft recommends 64 GB as the minimum).
 14. A minimum of **4 GB of memory and 2 CPU cores** should be chosen. Click "Finish" to create the VM.
 
-https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
-
 ## 4. Install Windows Server 2022
 1. After creating the two VMs, select the Windows Server VM and click on "Edit virtual machine settings".
 2. Select "CD/DVD (SATA)". Choose the "Use ISO image file" option and click "Browse". Select the downloaded Windows Server ISO file.
@@ -65,15 +63,11 @@ https://github.com/user-attachments/assets/0ff570b1-2c24-48d0-a827-a1ac0638ace1
 6. Check the "Active Directory Domain Services" box. A pop-up will appear showing other necessary tools along with AD DS. Click "Add Features".
 7. Continue clicking "Next" and install AD DS. This may take a few minutes.
 
-> https://github.com/user-attachments/assets/2b898f4a-b2e2-4456-8214-670548899bb0
-
 ## 6. Promote Server to Domain Controller
 1. In the top right of Server Manager, click the flag icon. Click on "Promote this server to a domain controller".
 2. Choose "Add a new forest". Choose a root domain name such as "ad.mydomain.com".
 3. Create a Directory Servicdes Restore Mode (DSRM) password. (Used to restore from backups, unlikely to be needed)
 4. Continue clicking "Next" and install. After installation, the VM will restart.
-
-> https://github.com/user-attachments/assets/869bb627-6cb8-4039-84cf-465b0c38c149
 
 ## 7. Create Organization Units (OUs) & User Accounts
 Log into the Admin account. Now that AD DS has been installed and the server has been promoted to a Domain Controller (DC), OUs and user accounts can be created.
