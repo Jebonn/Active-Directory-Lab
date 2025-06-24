@@ -19,7 +19,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 2. Run VMWare .exe file. An installation pop-up window will appear. Click "Next" and check the License Agreemeent box.
 3. Then continue clicking "Next" through the rest of the installation pop-up windows to install. The default configurations during this process can be left as is or customized to preference.
 4. Once installation is complete, click "Finish" and open the program.
-> ![VMWare Installation Steps](/images/1.png)
+> ![VMWare Installation Steps](/images/Part2.png)
 ## 3. Create two Virtual Machines
 1. Click "Create a New Virtual Machine" and choose the "Typical (recommended)" option.
 2. Choose the "I will install the operating system later." option.
@@ -39,7 +39,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 2. Select "CD/DVD (SATA)". Choose the "Use ISO image file" option and click "Browse". Select the downloaded Windows Server ISO file.
 3. Click "OK" to close the Settings window. Then click on "Power on this virtual machine".
 4. Quickly press any key to boot using the mounted ISO file otherwise the VM will timeout. *(NOTE: Restart by right-clicking on the VM then go to Power -> Shut Down)*
-> ![boot timeout](/images/4.png)
+> ![boot timeout](/images/Part4-Step4.5.png)
 
 5. If successful, a setup screen will be shown where the preferred language/time and currency/keyboard settings can be chosen. Click "Next", then click "Install".
 6. Choose the "Standard Evaluation (Desktop Experience)" option. *(Desktop Experience provides a graphical user interface to manage AD rather than a command line interface)*
@@ -52,7 +52,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
 
 *(Optional: After log in, install VMWare Tools so that VMWare will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file.)*
-> ![vmware-tools-install-pic](/images/5.jpg)
+> ![vmware-tools-install-pic](/images/Part5-Step1 (Optional).jpg)
 
 2. In the top right hand side, click on "Manage" -> "Add Roles and Features".
 3. The Add Roles and Features Wizard will pop-up. Click "Next".
@@ -71,9 +71,9 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 Log into the Admin account. Now that AD DS has been installed and the server has been promoted to a Domain Controller (DC), OUs and user accounts can be created.
 
 1. In the Server Manager, click on "Tools" in the upper right, then click on the "Active Directory Users & Computers" tool.
-> ![Step 7-1](/images/7-1.jpg)
+> ![Step 7-1](/images/Part7-Step1.jpg)
 2. Right-click on the domain and go to New -> Organization Unit. Choose a name for the OU such as "Sales". *(OUs can represent different departments or locations of a business)*
-> ![Step 7-2](/images/7-2.jpg)
+> ![Step 7-2](/images/Part7-Step2.jpg)
 3. Right-click on the newly created OU and this time create a new user.
 4. Create other users and other OUs such as "Customer Support" or "Accounting" by repeating steps 2-3 a couple more times.
 
