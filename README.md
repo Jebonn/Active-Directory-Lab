@@ -26,6 +26,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
   <img src="/images/Part3-Step1a.jpg" width="500"/>
   <img src="/images/Part3-Step1b.jpg" width="500"/> 
 </p align="middle">
+
 2. Choose the "I will install the operating system later." option.
 3. Select Microsoft Windows and select Windows Server 2022.
 4. The name and location of the VM can be left as is.
