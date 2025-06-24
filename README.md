@@ -48,8 +48,6 @@ Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .
 9. Then it will ask where to install the OS. There should only one Drive shown. Simply click "Next" to start the installation.
 10. The installation may take a few minutes. Once complete the VM will restart. Create a password the Admin account then click "Finish".
 
-> https://github.com/user-attachments/assets/c855394c-b0da-45b8-9b8e-fc1b8fa08600
-
 ## 5. Install Active Directory Domain Services (AD DS) on Windows Server
 1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
 
