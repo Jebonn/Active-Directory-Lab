@@ -19,7 +19,8 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 2. Run VMWare .exe file. An installation pop-up window will appear. Click "Next" and check the License Agreemeent box.
 3. Then continue clicking "Next" through the rest of the installation pop-up windows to install. The default configurations during this process can be left as is or customized to preference.
 4. Once installation is complete, click "Finish" and open the program.
-> ![VMWare Installation Steps](/images/Part2.png)
+<img src="/images/Part2.png" width="800">
+
 ## 3. Create two Virtual Machines
 1. Click "Create a New Virtual Machine" and choose the "Typical (recommended)" option.
 <p float="left">
@@ -57,7 +58,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
 
 *(Optional: After log in, install VMWare Tools so that VMWare will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file.)*
-> ![vmware-tools-install-pic](/images/Part5-Step1-(Optional).jpg)
+<img src="/images/Part5-Step1-(Optional).jpg" width="800">
 
 2. In the top right side of Server Manager, click on "Manage" -> "Add Roles and Features".
 3. The Add Roles and Features Wizard will pop-up. Click "Next".
