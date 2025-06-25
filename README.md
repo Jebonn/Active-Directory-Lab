@@ -76,9 +76,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 Log into the Admin account. Now that AD DS has been installed and the server has been promoted to a Domain Controller (DC), OUs and user accounts can be created.
 
 1. In the Server Manager, click on "Tools" in the upper right, then click on the "Active Directory Users & Computers" tool.
-> ![Step 7-1](/images/Part7-Step1.jpg)
 2. Right-click on the domain and go to New -> Organization Unit. Choose a name for the OU such as "Sales". *(OUs can represent different departments or locations of a business)*
-> ![Step 7-2](/images/Part7-Step2.jpg)
 3. Right-click on the newly created OU and this time create a new user.
 4. Create other users and other OUs such as "Customer Support" or "Accounting" by repeating steps 2-3 a couple more times.
 
