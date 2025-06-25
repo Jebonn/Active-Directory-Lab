@@ -59,7 +59,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 *(Optional: After log in, install VMWare Tools so that VMWare will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file.)*
 > ![vmware-tools-install-pic](/images/Part5-Step1-(Optional).jpg)
 
-2. In the top right hand side, click on "Manage" -> "Add Roles and Features".
+2. In the top right side of Server Manager, click on "Manage" -> "Add Roles and Features".
 3. The Add Roles and Features Wizard will pop-up. Click "Next".
 4. Choose the "Role-based or feature-based installation" option.
 5. Server Selection can be left as is.
@@ -67,7 +67,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 7. Continue clicking "Next" and install AD DS. This may take a few minutes.
 
 ## 6. Promote Server to Domain Controller
-1. In the top right of Server Manager, click the flag icon. Click on "Promote this server to a domain controller".
+1. In the top right side of Server Manager, click the flag icon. Click on "Promote this server to a domain controller".
 2. Choose "Add a new forest". Choose a root domain name such as "ad.mydomain.com".
 3. Create a Directory Servicdes Restore Mode (DSRM) password. (Used to restore from backups, unlikely to be needed)
 4. Continue clicking "Next" and install. After installation, the VM will restart.
