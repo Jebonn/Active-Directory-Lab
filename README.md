@@ -23,8 +23,8 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 ## 3. Create two Virtual Machines
 1. Click "Create a New Virtual Machine" and choose the "Typical (recommended)" option.
 <p float="left">
-  <img src="/images/Part3-Step1a.jpg" width="500"/>
-  <img src="/images/Part3-Step1b.jpg" width="500"/> 
+  <img src="/images/Part3-Step1a.jpg" width="400"/>
+  <img src="/images/Part3-Step1b.jpg" width="400"/> 
 </p align="middle">
 
 2. Choose the "I will install the operating system later." option.
