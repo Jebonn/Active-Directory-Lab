@@ -30,10 +30,6 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 
 2. Choose the "I will install the operating system later." option.
 3. Select Microsoft Windows and select Windows Server 2022.
-<p float="left">
-  <img src="/images/Part3-Step3.jpg"/>
-</p align="middle">
-
 4. The name and location of the VM can be left as is.
 5. Use 32 GB for the disk size (Microsoft recommends 32 GB as the minimum).
 6. A minimum of **2 GB of memory and 2 CPU cores** should be chosen. Click "Finish" to create the VM.
