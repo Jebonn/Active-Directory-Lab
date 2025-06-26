@@ -85,12 +85,16 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 </p>
 
 ## 5. Install Active Directory Domain Services (AD DS) on Windows Server
-1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
+1. There's a button with a icon showing three boxes in the VMWare Workstation menu bar at the top. Click it to send a "Ctrl"+"Alt"+"Delete" input to the VM to unlock the OS. Then log in using the recently created Admin account and password.
+<p float="left">
+  <img src="/images/Part5-Step1a.jpg" width="400"/>
+  <img src="/images/Part5-Step1b.jpg" width="400"/> 
+</p>
 
 *(Optional: After log in, install VMWare Tools so that VMWare will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file.)*
 <img src="/images/Part5-Step1-(Optional).jpg" width="600">
 
-2. In the top right side of Server Manager, click on "Manage" -> "Add Roles and Features".
+2. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu. In the top right side of Server Manager, click on "Manage" -> "Add Roles and Features".
 3. The Add Roles and Features Wizard will pop-up. Click "Next".
 4. Choose the "Role-based or feature-based installation" option.
 5. Server Selection can be left as is.
