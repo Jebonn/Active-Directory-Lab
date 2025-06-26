@@ -37,6 +37,10 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 4. The name and location of the VM can be left as is.
 5. Use 32 GB for the disk size (Microsoft recommends 32 GB as the minimum).
 6. A minimum of **2 GB of memory and 2 CPU cores** should be chosen. Click "Finish" to create the VM.
+<p float="left">
+  <img src="/images/Part3-Step6.jpg"/>
+</p align="middle">
+
 7. Once the first VM has been made, create the second VM by clicking on the "Home" tab and repeat steps 1 and 2.
 8. This time, select Windows 11 x64 instead of Windows Server.
 9. The name and location of the Windows 11 VM can be left as is.
