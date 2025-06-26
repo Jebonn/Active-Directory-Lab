@@ -70,7 +70,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
 
 *(Optional: After log in, install VMWare Tools so that VMWare will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file.)*
-<img src="/images/Part5-Step1-(Optional).jpg" width="800">
+<img src="/images/Part5-Step1-(Optional).jpg" width="600">
 
 2. In the top right side of Server Manager, click on "Manage" -> "Add Roles and Features".
 3. The Add Roles and Features Wizard will pop-up. Click "Next".
