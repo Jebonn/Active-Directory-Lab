@@ -79,6 +79,10 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 8. Choose the "Custom" install option. *(The "Upgrade" option is when there's an existing OS on the computer)*
 9. Then it will ask where to install the OS. There should only one Drive shown. Simply click "Next" to start the installation.
 10. The installation may take a few minutes. Once complete the VM will restart. Create a password the Administrator account then click "Finish".
+<p float="left">
+  <img src="/images/Part4-Step10a.jpg" width="400"/>
+  <img src="/images/Part4-Step10b.jpg" width="400"/> 
+</p>
 
 ## 5. Install Active Directory Domain Services (AD DS) on Windows Server
 1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
