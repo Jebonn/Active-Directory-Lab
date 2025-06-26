@@ -56,12 +56,17 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 </p>
 
 ## 4. Install Windows Server 2022
-1. After creating the two VMs, select the Windows Server VM and click on "Edit virtual machine settings".
-2. Select "CD/DVD (SATA)". Choose the "Use ISO image file" option and click "Browse". Select the downloaded Windows Server ISO file.
+1. After creating the two VMs, select the Windows Server VM.
+2. Under "Devices", click on "CD/DVD (SATA)". Choose the "Use ISO image file" option. Click "Browse" and use the downloaded Windows Server ISO file.
+<p float="left">
+  <img src="/images/Part4-Step2a.jpg" width="400"/>
+  <img src="/images/Part4-Step2b.jpg" width="400"/> 
+</p>
+
 3. Click "OK" to close the Settings window. Then click on "Power on this virtual machine".
 4. Quickly click anywhere in the VM window and then press any key to boot using the mounted ISO file otherwise the VM will timeout.
 
-*(NOTE: Restart by right-clicking on the VM then go to Power -> Shut Down)*
+*(NOTE: In case of timeout, restart by right-clicking on the VM then go to Power -> Shut Down, then Power On again)*
 > ![boot timeout](/images/Part4-Step4.5.png)
 
 5. If successful, a setup screen will be shown where the preferred language/time and currency/keyboard settings can be chosen. Click "Next", then click "Install".
@@ -69,7 +74,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 7. Accept the License Terms.
 8. Choose the "Custom" install option. *(The "Upgrade" option is when there's an existing OS on the computer)*
 9. Then it will ask where to install the OS. There should only one Drive shown. Simply click "Next" to start the installation.
-10. The installation may take a few minutes. Once complete the VM will restart. Create a password the Admin account then click "Finish".
+10. The installation may take a few minutes. Once complete the VM will restart. Create a password the Administrator account then click "Finish".
 
 ## 5. Install Active Directory Domain Services (AD DS) on Windows Server
 1. Log into the Administrator account. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu.
