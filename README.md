@@ -51,6 +51,9 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 10. The OS requires a password that will be used for encrpytion. Create or generate a password and keep it somewhere safe.
 11. Use 64 GB for the disk size (Microsoft recommends 64 GB as the minimum).
 12. A minimum of **4 GB of memory and 2 CPU cores** should be chosen. Click "Finish" to create the VM.
+<p float="left">
+  <img src="/images/Part3-Step12.jpg" width="400"/>
+</p>
 
 ## 4. Install Windows Server 2022
 1. After creating the two VMs, select the Windows Server VM and click on "Edit virtual machine settings".
