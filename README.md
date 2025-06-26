@@ -97,12 +97,19 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 </p>
 
 2. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu. In the top right side of Server Manager, click on "Manage" -> "Add Roles and Features".
-
+<p float="left">
+  <img src="/images/Part5-Step2.jpg" width="400"/>
+</p>
 
 3. The Add Roles and Features Wizard will pop-up. Click "Next".
 4. Choose the "Role-based or feature-based installation" option.
 5. Server Selection can be left as is.
 6. Check the "Active Directory Domain Services" box. A pop-up will appear showing other necessary tools along with AD DS. Click "Add Features".
+<p float="left">
+  <img src="/images/Part5-Step6a.jpg" width="400"/>
+  <img src="/images/Part5-Step6b.jpg" width="400"/> 
+</p>
+
 7. Continue clicking "Next" and install AD DS. This may take a few minutes.
 
 ## 6. Promote Server to Domain Controller
