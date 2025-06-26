@@ -85,7 +85,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 </p>
 
 ## 5. Install Active Directory Domain Services (AD DS) on Windows Server
-1. There's a button with a icon showing three boxes in the VMWare Workstation menu bar at the top. Click it to send a "Ctrl"+"Alt"+"Delete" input to the VM to unlock the OS. Then log in using the recently created Admin account and password.
+1. There's a button with an icon of three boxes in the VMWare Workstation menu bar at the top. Click it to send a "Ctrl"+"Alt"+"Delete" input to the VM to unlock the OS. Then log in using the recently created Admin account and password.
 <p float="left">
   <img src="/images/Part5-Step1a.jpg" width="400"/>
   <img src="/images/Part5-Step1b.jpg" width="400"/> 
