@@ -93,7 +93,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 
 *(Optional: After log in, install VMWare Tools so that VMWare will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file.)*
 <p float="left">
-  <img src="/images/Part5-Step1-(Optional).jpg" width="500"/>
+  <img src="/images/Part5-Step1-(Optional).jpg" width="600"/>
 </p>
 
 2. The Server Manager window should automatically pop up. If not, it can be opened in the Start Menu. In the top right side of Server Manager, click on "Manage" -> "Add Roles and Features".
