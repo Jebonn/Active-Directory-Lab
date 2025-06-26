@@ -43,6 +43,10 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 
 7. Once the first VM has been made, create the second VM by clicking on the "Home" tab and repeat steps 1 and 2.
 8. This time, select Windows 11 x64 instead of Windows Server.
+<p float="left">
+  <img src="/images/Part3-Step8.jpg" width="400"/>
+</p align="middle">
+
 9. The name and location of the Windows 11 VM can be left as is.
 10. The OS requires a password that will be used for encrpytion. Create a password and keep it somewhere safe.
 11. Use 64 GB for the disk size (Microsoft recommends 64 GB as the minimum).
