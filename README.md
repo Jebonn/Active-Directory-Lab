@@ -48,7 +48,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 </p>
 
 9. The name and location of the Windows 11 VM can be left as is.
-10. The OS requires a password that will be used for encrpytion. Create a password and keep it somewhere safe.
+10. The OS requires a password that will be used for encrpytion. Create or generate a password and keep it somewhere safe.
 11. Use 64 GB for the disk size (Microsoft recommends 64 GB as the minimum).
 12. A minimum of **4 GB of memory and 2 CPU cores** should be chosen. Click "Finish" to create the VM.
 
