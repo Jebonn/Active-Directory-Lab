@@ -135,7 +135,7 @@ Log into the Admin account. Now that AD DS has been installed and the server has
   <img src="/images/Part7-Step2.jpg" width="400"/>
 </p>
 
-3. Right-click on the newly created OU and this time create a new user and a password for the user to log in with.
+3. Right-click on the newly created OU and this time create a new user and a password for the user to log in with. For convenience, since this is only a lab, uncheck the box that says "User must change password at next logon".
 <p float="left">
   <img src="/images/Part7-Step3.jpg" width="400"/>
 </p>
@@ -143,6 +143,6 @@ Log into the Admin account. Now that AD DS has been installed and the server has
 4. Create a few more OUs and a user within those OUs by repeating steps 2-3. *(Create other sample departments, such as Accounting or Helpdesk)*
 
 ## 8. Install Windows 11
-Now that user accounts have been made, the other VM will be setup to connect to the DC and log into the created accounts.
+Now that user accounts have been made, the other VM will be setup to connect to the DC. The Windows Server VM can be shutdown for now.
 
-1.
+1. Similar to installing Windows Server, 
