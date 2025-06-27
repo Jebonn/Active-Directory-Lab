@@ -104,13 +104,13 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 3. The Add Roles and Features Wizard will pop-up. Click "Next".
 4. Choose the "Role-based or feature-based installation" option.
 5. Server Selection can be left as is.
-6. Check the "Active Directory Domain Services" box. A pop-up will appear showing other necessary tools along with AD DS. Click "Add Features".
+6. In Server Roles, check the "Active Directory Domain Services" box. A pop-up will appear showing other necessary tools along with AD DS. Click "Add Features" and click "Next"
 <p float="left">
   <img src="/images/Part5-Step6a.jpg" width="400"/>
   <img src="/images/Part5-Step6b.jpg" width="400"/> 
 </p>
 
-7. Scroll down and check the "Group Policy Management" box.
+7. In Features, check the "Group Policy Management" box.
 8. Continue clicking "Next" and install. This may take a few minutes.
 
 ## 6. Promote Server to Domain Controller
