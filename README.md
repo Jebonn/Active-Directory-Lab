@@ -91,7 +91,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
   <img src="/images/Part5-Step1b.jpg" width="400"/> 
 </p>
 
-*(Optional: After logging in, install VMWare Tools. It will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file. Use the "Typical" install option. Then restart after.)*
+*(Optional: After logging in, install VMWare Tools. It will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare Tools. Open file explorer and go to DVD Drive (D:) and run the setup file. Use the "Typical" install option. Then restart after.)*
 <p float="left">
   <img src="/images/Part5-Step1-(Optional).jpg" width="600"/>
 </p>
@@ -121,7 +121,19 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 
 2. Choose "Add a new forest". Choose a root domain name such as "ad.mydomain.com".
 3. Create a Directory Services Restore Mode (DSRM) password. *(Used to restore from backups, unlikely to be needed)*
-4. Continue clicking "Next" and install. After installation, the VM will restart.
+4. Continue clicking "Next" and install. After installation, the VM will restart. Log back in.
+5. The Domain Controller will act as a DNS server. Following best practice, the DC will be configured with a static IP address. In the Start Menu, search "View network connections" and click on it.
+<p float="left">
+  <img src="/images/Part6-Step5.jpg" width="400"/>
+</p>
+
+6. Right-click on the adapter and click on "Properties". Click on "Internet Protocol Version 4" to highlight it and then click on "Properties".
+<p float="left">
+  <img src="/images/Part6-Step6a.jpg" width="400"/>
+  <img src="/images/Part6-Step6b.jpg" width="400"/>
+</p>
+
+7. 
 
 ## 7. Create Organization Units (OUs) & User Accounts
 Log into the Admin account. Now that AD DS has been installed and the server has been promoted to a Domain Controller (DC), OUs and user accounts can be created.
@@ -145,7 +157,7 @@ Log into the Admin account. Now that AD DS has been installed and the server has
 4. Create a few more OUs and a user within those OUs by repeating steps 2-3. *(Create other sample departments, such as Accounting or Helpdesk)*
 
 ## 8. Install Windows 11
-Now that user accounts have been made, the other VM will be setup to connect to the DC. The Windows Server VM can be shutdown for now.
+Now that user accounts have been made, the other VM will be setup to connect to the DC.
 
 1. Similar to installing Windows Server, select the Windows Server VM. Under "Devices", click on "CD/DVD (SATA)". Choose the "Use ISO image file" option. Click "Browse" and use the downloaded Windows 11 ISO file.
 <p float="left">
@@ -175,10 +187,15 @@ Now that user accounts have been made, the other VM will be setup to connect to 
   <img src="/images/Part8-Step10.jpg" width="400"/>
 </p>
 
-11. Create a name, a password, and security questions for the local account.
+11. Create a name, a password, and security questions for the local account. The password will be needed to log in later.
 12. Privacy settings can be left as is or turned off, then click "Accept". The OS will check for updates and may take a while.
 <p float="left">
   <img src="/images/Part8-Step12.jpg" width="400"/>
 </p>
 
+*(Optional: Similar to the Windows Server VM, VMWare Tools may be installed by logging into the recently created account. Then go to VM -> Install VMWare Tools in the menu bar.)*
+
 ## 9. Connecting to the Domain Controller (DC)
+
+
+
