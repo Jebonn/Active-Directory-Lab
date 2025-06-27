@@ -162,7 +162,7 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 
 6. Accept the License Terms.
 7. Then it will ask where to install the OS. There should only one Drive shown, if there's more than one, choose the "Primary" one with the most drive space.
-8. Click "Next" and click "Install" to start the installation. This may take a few minutes.
+8. Click "Next" and click "Install" to start the installation. This may take a while.
 <p float="left">
   <img src="/images/Part8-Step8a.jpg" width="400"/>
   <img src="/images/Part8-Step8b.jpg" width="400"/>
