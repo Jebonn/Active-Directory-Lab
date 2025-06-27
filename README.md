@@ -146,4 +146,11 @@ Log into the Admin account. Now that AD DS has been installed and the server has
 ## 8. Install Windows 11
 Now that user accounts have been made, the other VM will be setup to connect to the DC. The Windows Server VM can be shutdown for now.
 
-1. Similar to installing Windows Server, 
+1. Similar to installing Windows Server, select the Windows Server VM. Under "Devices", click on "CD/DVD (SATA)". Choose the "Use ISO image file" option. Click "Browse" and use the downloaded Windows 11 ISO file.
+<p float="left">
+  <img src="/images/Part8-Step1a.jpg" width="400"/>
+  <img src="/images/Part8-Step1b.jpg" width="400"/>
+</p>
+
+2. 
+
