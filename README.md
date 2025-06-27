@@ -152,5 +152,18 @@ Now that user accounts have been made, the other VM will be setup to connect to 
   <img src="/images/Part8-Step1b.jpg" width="400"/>
 </p>
 
-2. 
+2. Click "OK" to close the Settings window. Then click on "Power on this virtual machine".
+3. Quickly click anywhere in the VM window and then press any key to boot using the mounted ISO file otherwise the VM will timeout.
+4. If successful, a setup screen will be shown where the preferred currency, language, time, and keyboard settings can be chosen.
+5. Choose the "Install Windows 11" and check the "I agree" box.
+<p float="left">
+  <img src="/images/Part8-Step5.jpg" width="400"/>
+</p>
 
+6. Accept the License Terms.
+7. Then it will ask where to install the OS. There should only one Drive shown, if there's more than one, choose the "Primary" one with the most drive space.
+8. Click "Next" and click "Install" to start the installation. This may take a few minutes.
+<p float="left">
+  <img src="/images/Part8-Step8a.jpg" width="400"/>
+  <img src="/images/Part8-Step8b.jpg" width="400"/>
+</p>
