@@ -181,3 +181,4 @@ Now that user accounts have been made, the other VM will be setup to connect to 
   <img src="/images/Part8-Step12.jpg" width="400"/>
 </p>
 
+## 9. Connecting to the DC
