@@ -91,7 +91,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
   <img src="/images/Part5-Step1b.jpg" width="400"/> 
 </p>
 
-*(Optional: After log in, install VMWare Tools so that VMWare will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file. Use the "Typical" install option. Then restart after.)*
+*(Optional: After logging in, install VMWare Tools. It will automatically adjust screen resolution to fit the window. In the top menu bar, go to VM -> Install VMWare tools. Open file explorer and go to DVD Drive (D:) and run the setup file. Use the "Typical" install option. Then restart after.)*
 <p float="left">
   <img src="/images/Part5-Step1-(Optional).jpg" width="600"/>
 </p>
