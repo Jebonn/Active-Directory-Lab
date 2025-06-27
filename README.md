@@ -84,7 +84,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
   <img src="/images/Part4-Step10b.jpg" width="400"/> 
 </p>
 
-## 5. Install Active Directory Domain Services (AD DS) on Windows Server
+## 5. Install Active Directory Domain Services (AD DS) and Group Policy Management (GPM)
 1. There's a button with an icon of three boxes in the VMWare Workstation menu bar at the top. Click it to send a "Ctrl"+"Alt"+"Delete" input to the VM to unlock the OS. Then log in using the recently created Admin account and password.
 <p float="left">
   <img src="/images/Part5-Step1a.jpg" width="400"/>
@@ -110,7 +110,8 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
   <img src="/images/Part5-Step6b.jpg" width="400"/> 
 </p>
 
-7. Continue clicking "Next" and install AD DS. This may take a few minutes.
+7. Scroll down and check the "Group Policy Management" box.
+8. Continue clicking "Next" and install. This may take a few minutes.
 
 ## 6. Promote Server to Domain Controller
 1. In the top right side of Server Manager, click the flag icon. Click on "Promote this server to a domain controller".
