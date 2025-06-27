@@ -143,4 +143,6 @@ Log into the Admin account. Now that AD DS has been installed and the server has
 4. Create a few more OUs and a user within those OUs by repeating steps 2-3. *(Create other sample departments, such as Accounting or Helpdesk)*
 
 ## 8. Install Windows 11
+Now that user accounts have been made, the other VM will be setup to connect to the DC and log into the created accounts.
+
 1.
