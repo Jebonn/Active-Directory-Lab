@@ -167,3 +167,12 @@ Now that user accounts have been made, the other VM will be setup to connect to 
   <img src="/images/Part8-Step8a.jpg" width="400"/>
   <img src="/images/Part8-Step8b.jpg" width="400"/>
 </p>
+
+9. Once the installation is complete, the VM will restart and will ask for a country then for a keyboard layout. Select what's appropriate and continue. The VM will restart again.
+10. After restart, a Microsoft login screen should appear. Click "Sign-in options", then click "Domain join instead".
+<p float="left">
+  <img src="/images/Part8-Step10.jpg" width="400"/>
+</p>
+
+11. Create a name, a password, and security questions for the local account.
+12. Privacy settings can be left as is or turned off, then click "Accept". The OS will check for updates and may take a while.
