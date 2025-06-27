@@ -176,3 +176,7 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 
 11. Create a name, a password, and security questions for the local account.
 12. Privacy settings can be left as is or turned off, then click "Accept". The OS will check for updates and may take a while.
+<p float="left">
+  <img src="/images/Part8-Step12.jpg" width="400"/>
+</p>
+
