@@ -135,9 +135,10 @@ Log into the Admin account. Now that AD DS has been installed and the server has
   <img src="/images/Part7-Step2.jpg" width="400"/>
 </p>
 
-3. Right-click on the newly created OU and this time create a new user and a password for the user to log in with. For convenience, since this is only a lab, uncheck the box that says "User must change password at next logon".
+3. Right-click on the newly created OU and go to New -> User. Choose a name for the user then click "Next" and create a password for the user. For convenience, since this is only a lab, uncheck the box that says "User must change password at next logon".
 <p float="left">
-  <img src="/images/Part7-Step3.jpg" width="400"/>
+  <img src="/images/Part7-Step3a.jpg" width="400"/>
+  <img src="/images/Part7-Step3b.jpg" width="400"/>
 </p>
 
 4. Create a few more OUs and a user within those OUs by repeating steps 2-3. *(Create other sample departments, such as Accounting or Helpdesk)*
