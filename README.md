@@ -206,6 +206,9 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 
 ## 9. Connecting to the Domain Controller (DC)
 1. Similar to steps 6 and 7 in [Part 6](#6-promote-server-to-domain-controller), search "View network connections" and click on it. Right-click on the adapter and click on "Properties". Click on "Internet Protocol Version 4" to highlight it and then click on "Properties".
-2. Click on "Use the following DNS server addresses" and enter the IP address of the Domain Controller *(this is the IP address of the Windows Server VM)*. The alternate DNS server can be 8.8.8.8 which is Google's server.
-3. 
+2. Click on "Use the following DNS server addresses" and enter the IP address of the Domain Controller *(this is the IP address of the Windows Server VM)*. The alternate DNS server can be 8.8.8.8 which is Google's server. Click "OK".
+3. In the Start menu, search and open "About your PC". Click "Rename this PC (Advanced)".
+4. Click the "Change..." button and select the "Domain" option. Type the name of the Domain chosen from step 2 in [Part 6](#6-promote-server-to-domain-controller) and click "OK".
+5. Enter the credentials of the Administrator account to join the domain. The VM will restart.
+6. Log in using one of the user accounts created in [Part 7](#7-create-organization-units-ous--user-accounts).
 
