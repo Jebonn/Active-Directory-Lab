@@ -129,7 +129,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 
 6. In the Start Menu, search "View network connections" and click on it.
 <p float="left">
-  <img src="/images/Part6-Step5.jpg" width="400"/>
+  <img src="/images/Part6-Step6.jpg" width="400"/>
 </p>
 
 6. Right-click on the adapter and click on "Properties". Click on "Internet Protocol Version 4" to highlight it and then click on "Properties".
