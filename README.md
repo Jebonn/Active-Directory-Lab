@@ -122,26 +122,29 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 2. Choose "Add a new forest". Choose a root domain name such as "ad.mydomain.com".
 3. Create a Directory Services Restore Mode (DSRM) password. *(Used to restore from backups, unlikely to be needed)*
 4. Continue clicking "Next" and install. After installation, the VM will restart. Log back in.
-5. The Domain Controller will act as a DNS server. Following best practice, the DC will be configured with a static IP address. The the Start menu, open Command Prompt and use "ipconfig" to find the VM's IP information.
+5. The Domain Controller will act as a DNS server. Following best practice, the DC will be configured with a static IP address. In the Start menu, open Command Prompt and use "ipconfig" to find the VM's IP information.
 <p float="left">
   <img src="/images/Part6/Part6-Step5.jpg" width="400"/>
 </p>
 
-6. In the Start Menu, search "View network connections" and click on it.
+6. Then in the Start Menu, search "View network connections" and click on it.
 <p float="left">
   <img src="/images/Part6/Part6-Step6.jpg" width="400"/>
 </p>
 
-6. Right-click on the adapter and click on "Properties". Click on "Internet Protocol Version 4" to highlight it and then click on "Properties".
+7. Right-click on the adapter and click on "Properties". Click on "Internet Protocol Version 4" to highlight it and then click on "Properties".
 <p float="left">
   <img src="/images/Part6/Part6-Step7a.jpg" width="400"/>
   <img src="/images/Part6/Part6-Step7b.jpg" width="400"/>
 </p>
 
-7. 
+8. Click on "Use the following IP address" and copy the information from the Command Prompt to set a static IP address. Then click on "Use the following DNS server addresses" and use the loopback address 127.0.0.1 as the preferred DNS server.
+<p float="left">
+  <img src="/images/Part6/Part6-Step8.jpg" width="400"/>
+</p>
 
 ## 7. Create Organization Units (OUs) & User Accounts
-Log into the Admin account. Now that AD DS has been installed and the server has been promoted to a Domain Controller (DC), OUs and user accounts can be created.
+Now that AD DS has been installed and the server has been promoted to a Domain Controller (DC) with a static IP address, OUs and user accounts can be created.
 
 1. In the Server Manager, click on "Tools" in the upper right, then click on the "Active Directory Users & Computers" tool.
 <p float="left">
