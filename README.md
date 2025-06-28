@@ -197,6 +197,7 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 
 11. Create a name, a password, and security questions for the local account. The password will be needed to log in later.
 12. Privacy settings can be left as is or turned off, then click "Accept". The OS will check for updates and may take a while.
+13. After Windows 11 finish updating, log in using the local account.
 <p float="left">
   <img src="/images/Part8/Part8-Step12.jpg" width="400"/>
 </p>
@@ -204,6 +205,7 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 *(Optional: Similar to the Windows Server VM, VMWare Tools may be installed by logging into the recently created account. Then go to VM -> Install VMWare Tools in the menu bar.)*
 
 ## 9. Connecting to the Domain Controller (DC)
-
-
+1. Similar to steps 6 and 7 in [Part 6](#6-promote-server-to-domain-controller), search "View network connections" and click on it. Right-click on the adapter and click on "Properties". Click on "Internet Protocol Version 4" to highlight it and then click on "Properties".
+2. Click on "Use the following DNS server addresses" and enter the IP address of the Domain Controller. The alternate DNS server can be 8.8.8.8 which is Google's server.
+3. 
 
