@@ -216,7 +216,12 @@ Now that user accounts have been made, the other VM will be setup to connect to 
   <img src="/images/Part9/Part9-Step2.jpg" width="400"/>
 </p>
 
-3. In the Start menu, search and open "About your PC". Click "Rename this PC (Advanced)".
+3. In the Start menu, search and open "About your PC". Click "Domain or Workgroup".
+<p float="left">
+  <img src="/images/Part9/Part9-Step3a.jpg" width="400"/>
+  <img src="/images/Part9/Part9-Step3b.jpg" width="400"/>
+</p>
+
 4. Click the "Change..." button and select the "Domain" option. Type the name of the Domain chosen from step 2 in [Part 6](#6-promote-server-to-domain-controller) and click "OK".
 5. Enter the credentials of the Administrator account to join the domain. The VM will restart.
 6. Log in using one of the user accounts created in [Part 7](#7-create-organization-units-ous--user-accounts).
