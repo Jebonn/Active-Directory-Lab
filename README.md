@@ -234,3 +234,6 @@ Now that user accounts have been made, the other VM will be setup to connect to 
   <img src="/images/Part9/Part9-Step6.jpg" width="400"/>
 </p>
 
+## 10. Implementing Group Policy Objects (GPOs)
+GPOs are policy settings that can be applied to different users and computers in the domain. A few simple GPOs will be created and applied to users.
+1. 
