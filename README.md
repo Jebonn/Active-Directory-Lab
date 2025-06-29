@@ -203,7 +203,7 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 
 13. After Windows 11 finishes updating, log in using the local account.
 
-*(Optional: Similar to the Windows Server VM, VMWare Tools may be installed by logging into the recently created account. Then go to VM -> Install VMWare Tools in the menu bar.)*
+*(Optional: Similar to the Windows Server VM, VMWare Tools may be installed after logging in. Then go to VM -> Install VMWare Tools in the menu bar.)*
 
 ## 9. Adding a Computer to the Domain
 1. Similar to steps 6 and 7 in [Part 6](#6-promote-server-to-domain-controller), search "View network connections" and click on it. Right-click on the adapter and click on "Properties". Click on "Internet Protocol Version 4" to highlight it and then click on "Properties".
