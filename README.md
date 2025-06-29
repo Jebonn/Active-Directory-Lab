@@ -156,7 +156,7 @@ Now that AD DS has been installed and the server has been promoted to a Domain C
   <img src="/images/Part7/Part7-Step2.jpg" width="400"/>
 </p>
 
-3. Right-click on the newly created OU and go to New -> User. Choose a name for the user then click "Next" and create a password for the user. For convenience, since this is only a lab, uncheck the box that says "User must change password at next logon".
+3. Right-click on the newly created OU and go to New -> User. Choose a name for the user then click "Next" and create a password for the user.
 <p float="left">
   <img src="/images/Part7/Part7-Step3a.jpg" width="400"/>
   <img src="/images/Part7/Part7-Step3b.jpg" width="400"/>
@@ -195,7 +195,7 @@ Now that user accounts have been made, the other VM will be setup to connect to 
   <img src="/images/Part8/Part8-Step10.jpg" width="400"/>
 </p>
 
-11. Create a name, a password, and security questions for the local account. The password will be needed to log in later.
+11. Create a name, a password, and security questions for the local account.
 12. Privacy settings can be left as is or turned off, then click "Accept". The OS will check for updates and may take a while.
 <p float="left">
   <img src="/images/Part8/Part8-Step12.jpg" width="400"/>
@@ -229,5 +229,8 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 </p>
 
 5. Enter the credentials of the Administrator account to join the domain. The VM will restart. *(The username is "Administrator" and password is what was chosen from step 10 in [Part 4](#4-install-windows-server-2022))*
-6. Log in using one of the user accounts created in [Part 7](#7-create-organization-units-ous--user-accounts).
+6. The log-in screen should now have an option for "Other user". Click on it and attempt log in using one of the user accounts created in [Part 7](#7-create-organization-units-ous--user-accounts).
+<p float="left">
+  <img src="/images/Part9/Part9-Step6.jpg" width="400"/>
+</p>
 
