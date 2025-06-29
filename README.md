@@ -197,10 +197,11 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 
 11. Create a name, a password, and security questions for the local account. The password will be needed to log in later.
 12. Privacy settings can be left as is or turned off, then click "Accept". The OS will check for updates and may take a while.
-13. After Windows 11 finishes updating, log in using the local account.
 <p float="left">
   <img src="/images/Part8/Part8-Step12.jpg" width="400"/>
 </p>
+
+13. After Windows 11 finishes updating, log in using the local account.
 
 *(Optional: Similar to the Windows Server VM, VMWare Tools may be installed by logging into the recently created account. Then go to VM -> Install VMWare Tools in the menu bar.)*
 
