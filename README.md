@@ -223,6 +223,10 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 </p>
 
 4. Click the "Change..." button and select the "Domain" option. Type the name of the Domain chosen from step 2 in [Part 6](#6-promote-server-to-domain-controller) and click "OK".
-5. Enter the credentials of the Administrator account to join the domain. The VM will restart.
+<p float="left">
+  <img src="/images/Part9/Part9-Step4.jpg" width="400"/>
+</p>
+
+5. Enter the credentials of the Administrator account to join the domain. The VM will restart. (The username is likely "Administrator" and password is what was chosen from step 10 in [Part 4](#4-install-windows-server-2022).
 6. Log in using one of the user accounts created in [Part 7](#7-create-organization-units-ous--user-accounts).
 
