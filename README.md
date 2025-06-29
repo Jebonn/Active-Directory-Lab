@@ -216,7 +216,7 @@ Now that user accounts have been made, the other VM will be setup to connect to 
   <img src="/images/Part9/Part9-Step2.jpg" width="400"/>
 </p>
 
-3. In the Start menu, search and open "About your PC". Click "Domain or Workgroup".
+3. In the Start menu, search and open "About your PC". Scroll down and click "Domain or Workgroup".
 <p float="left">
   <img src="/images/Part9/Part9-Step3a.jpg" width="400"/>
   <img src="/images/Part9/Part9-Step3b.jpg" width="400"/>
