@@ -1,7 +1,7 @@
 # Active Directory Lab
 ## 1. Introduction
 ### Objective
-This lab's goal is to become acquainted with virtual machines (VMs), active directory, and group policy concepts. To reach that goal, a virtual network environment will be set up using VMWare's hypervisor software and it will be used to simulate a small network that uses Active Directory Domain Services (AD DS). Sample user accounts will be created and then logically grouped under Organizational Units (OUs). Finally, the sample accounts will have various settings configured by applying Group Policy Objects (GPOs) to the OUs.
+This lab's goal is to become acquainted with virtual machines (VMs), active directory, and group policy concepts. To reach that goal, a virtual network environment will be set up using VMWare's hypervisor software and it will be used to simulate a small network that uses Active Directory Domain Services (AD DS). A sample user account will be created and then placed under an Organizational Units (OU). Finally, the account will have various settings configured by applying Group Policy Objects (GPOs) to the OU.
 ### Recommended Minimum Host Hardware
 * 96 GB of available disk space
 * 12 GB RAM
@@ -143,7 +143,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
   <img src="/images/Part6/Part6-Step8.jpg" width="400"/>
 </p>
 
-## 7. Create Organization Units (OUs) & User Accounts
+## 7. Create an Organization Unit (OU) & a User Account
 Now that AD DS has been installed and the server has been promoted to a Domain Controller (DC) with a static IP address, OUs and user accounts can be created.
 
 1. In the Server Manager, click on "Tools" in the upper right, then click on the "Active Directory Users & Computers" tool.
@@ -162,10 +162,8 @@ Now that AD DS has been installed and the server has been promoted to a Domain C
   <img src="/images/Part7/Part7-Step3b.jpg" width="400"/>
 </p>
 
-4. Create a few more OUs and a user within those OUs by repeating steps 2-3. *(Create other sample departments, such as Accounting or Helpdesk)*
-
 ## 8. Install Windows 11
-Now that user accounts have been made, the other VM will be setup to connect to the DC.
+Now that a user account has been made, the other VM will be setup to connect to the DC.
 
 1. Similar to installing Windows Server, select the Windows Server VM. Under "Devices", click on "CD/DVD (SATA)". Choose the "Use ISO image file" option. Click "Browse" and use the downloaded Windows 11 ISO file.
 <p float="left">
@@ -237,7 +235,7 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 </p>
 
 ## 10. Implementing Group Policy Objects (GPOs)
-GPOs are policy settings that can be applied to different users and computers in the domain. A couple of basic GPOs will be created and applied to the users. One to force a wallpaper and one to restrict control panel access. In the Windows 11 VM, download a preferred wallaper to the C:\ drive. Go back to Windows Server and open Group Policy Management (GPM) *(Server Manager -> Tools -> Group Policy Management)*.
+GPOs are policy settings that can be applied to different users and computers in the domain. Two basic GPOs will be created and applied to the users. One to force a wallpaper and one to restrict control panel access. In the Windows 11 VM, download a preferred wallaper to the C:\ drive. Go back to Windows Server and open Group Policy Management (GPM) *(Server Manager -> Tools -> Group Policy Management)*.
 
 ### Wallpaper GPO
 1. Right-click the domain controller under "Domains" and create a GPO. Name it "User Wallpaper Policy" and click "OK". Right-click on the created policy and click on "Edit".
@@ -247,7 +245,7 @@ GPOs are policy settings that can be applied to different users and computers in
 </p>
 
 2. Under "User Configuration" go to Policies -> Administrative Templates -> Desktop. Click "Desktop Wallpapers" then "Edit Policy Setting".
-3. Change the setting to "Enabled". Under "Wallpaper Name" enter the path of the downloaded wallpaper from earlier. The Wallpaper Style can be changed to preference. Finish by clicking "Apply" and "OK".
+3. Change the setting to "Enabled". Under "Wallpaper Name" enter the path of the downloaded wallpaper from the Windows 11 VM. The Wallpaper Style can be changed to preference. Finish by clicking "Apply" and "OK".
 <p float="left">
   <img src="/images/Part10/Part10-Step3.jpg" width="400"/>
 </p>
@@ -257,9 +255,8 @@ GPOs are policy settings that can be applied to different users and computers in
   <img src="/images/Part10/Part10-Step4.jpg" width="400"/>
 </p>
 
+5. By default, GPOs automatically refresh every 90 minutes and the system might add a random time of up to 30 minutes. To manually update the GPO, open Command Prompt in the client computer and type "gpupdate /force" update to the new policy (may need to restart for the change to take effect).
 
-
-
-
+### Restrict Control Panel Access
 
 
