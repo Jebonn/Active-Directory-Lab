@@ -258,5 +258,5 @@ GPOs are policy settings that can be applied to different users and computers in
 5. By default, GPOs automatically refresh every 90 minutes and the system might add a random time of up to 30 minutes. To manually update the GPO, open Command Prompt in the client computer and type "gpupdate /force" update to the new policy (may need to restart for the change to take effect).
 
 ### Restrict Control Panel Access
-
+6. Back in the 
 
