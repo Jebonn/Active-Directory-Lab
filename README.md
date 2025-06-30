@@ -237,7 +237,7 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 </p>
 
 ## 10. Implementing Group Policy Objects (GPOs)
-GPOs are policy settings that can be applied to different users and computers in the domain. A few simple GPOs will be created and applied to the users.
+GPOs are policy settings that can be applied to different users and computers in the domain. A few simple GPOs will be created and applied to the users. One to regulate wallpaper, one to disabling USB devices, and one to restrict control panel access.
 
 1. Go back to Windows Server and open Group Policy Management *(Server Manager -> Tools -> Group Policy Management)*.
 2. 
