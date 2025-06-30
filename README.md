@@ -237,7 +237,26 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 </p>
 
 ## 10. Implementing Group Policy Objects (GPOs)
-GPOs are policy settings that can be applied to different users and computers in the domain. A few simple GPOs will be created and applied to the users. One to regulate wallpaper, one to disable USB devices, and one to restrict control panel access.
+GPOs are policy settings that can be applied to different users and computers in the domain. A few simple GPOs will be created and applied to the users. One to regulate wallpaper, one to disable USB devices, and one to restrict control panel access. Go back to Windows Server and open Group Policy Management (GPM) *(Server Manager -> Tools -> Group Policy Management)*.
 
-1. Go back to Windows Server and open Group Policy Management (GPM) *(Server Manager -> Tools -> Group Policy Management)*.
-2. 
+### Wallpaper GPO
+1. Right-click the domain controller under "Domains" and create a GPO. Name it "User Wallpaper Policy" and click "OK".
+<p float="left">
+  <img src="/images/Part10/Part10-Step2a.jpg" width="400"/>
+  <img src="/images/Part10/Part10-Step2b.jpg" width="400"/>
+</p>
+
+2. Right-click on the created policy and click on "Edit". Then under "User Configuration" go to Policies -> Administrative Templates -> Desktop. Click "Desktop Wallpapers" then "Edit Policy Setting".
+3. Change the setting to "Enabled". Then download a preferred wallpaper and enter the path to that wallpaper. The Wallpaper Style can be changed to preference. Finish by clicking "Apply".
+<p float="left">
+  <img src="/images/Part10/Part10-Step3.jpg" width="400"/>
+</p>
+
+
+
+
+
+
+
+
+
