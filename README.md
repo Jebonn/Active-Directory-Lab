@@ -247,7 +247,7 @@ GPOs are policy settings that can be applied to different users and computers in
 </p>
 
 2. Under "User Configuration" go to Policies -> Administrative Templates -> Desktop. Click "Desktop Wallpapers" then "Edit Policy Setting".
-3. Change the setting to "Enabled". Under "Wallpaper Name" enter use C:\wallpaper.jpg (use the name, including the extension, of the downloaded wallpaper from earlier). The Wallpaper Style can be changed to preference. Finish by clicking "Apply" and "OK".
+3. Change the setting to "Enabled". Under "Wallpaper Name" enter use the location of the downloaded wallpaper from earlier. The Wallpaper Style can be changed to preference. Finish by clicking "Apply" and "OK".
 <p float="left">
   <img src="/images/Part10/Part10-Step3.jpg" width="400"/>
 </p>
