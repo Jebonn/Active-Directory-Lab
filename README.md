@@ -245,7 +245,7 @@ GPOs are policy settings that can be applied to different users and computers in
 </p>
 
 2. Under "User Configuration" go to Policies -> Administrative Templates -> Desktop. Click "Desktop Wallpapers" then "Edit Policy Setting".
-3. Change the setting to "Enabled". Under "Wallpaper Name" enter the path of the downloaded wallpaper from the Windows 11 VM. The Wallpaper Style can be changed to preference. Finish by clicking "Apply" and "OK".
+3. Change the setting to "Enabled". Under "Wallpaper Name" enter the path of the downloaded wallpaper from the client computer. The Wallpaper Style can be changed to preference. Finish by clicking "OK".
 <p float="left">
   <img src="/images/Part10/Part10-Step3.jpg" width="400"/>
 </p>
@@ -258,5 +258,11 @@ GPOs are policy settings that can be applied to different users and computers in
 5. By default, GPOs automatically refresh every 90 minutes and the system might add a random time of up to 30 minutes. To manually update the GPO, open Command Prompt in the client computer and type "gpupdate /force" update to the new policy (may need to restart for the change to take effect).
 
 ### Restrict Control Panel Access
-6. Back in the 
-
+6. Back in the DC, create another GPO and name it "Restrict Control Panel Access". Right-click on the created policy and click on "Edit".
+7. Under "User Configuration" go to Policies -> Administrative Templates -> Control Panel.
+8. Click "Prohibit Access" then "Edit Policy Setting". Change the setting to "Enabled". Finish by clicking "OK".
+9. Righ-click on an OU and click "Link an existing GPO". Select "Restrict Control Panel Access" and click "OK".
+10. Go back to the client computer and perform a gpudate in the Command Prompt. Then attempt to open the control panel. A restriction message pop-up denying access.
+<p float="left">
+  <img src="/images/Part10/Part10-Step10.jpg" width="400"/>
+</p>
