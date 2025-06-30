@@ -250,7 +250,7 @@ GPOs are policy settings that can be applied to different users and computers in
   <img src="/images/Part10/Part10-Step3.jpg" width="400"/>
 </p>
 
-4. Righ-click on an OU and click "Link an existing GPO". Select "User Wallpaper Policy" and click "OK".
+4. Righ-click on the OU the user is in and click "Link an existing GPO". Select "User Wallpaper Policy" and click "OK".
 <p float="left">
   <img src="/images/Part10/Part10-Step4.jpg" width="400"/>
 </p>
@@ -261,7 +261,7 @@ GPOs are policy settings that can be applied to different users and computers in
 6. Back in the DC, create another GPO and name it "Restrict Control Panel Access". Right-click on the created policy and click on "Edit".
 7. Under "User Configuration" go to Policies -> Administrative Templates -> Control Panel.
 8. Click "Prohibit Access" then "Edit Policy Setting". Change the setting to "Enabled". Finish by clicking "OK".
-9. Righ-click on an OU and click "Link an existing GPO". Select "Restrict Control Panel Access" and click "OK".
+9. Righ-click on the OU the user is in and click "Link an existing GPO". Select "Restrict Control Panel Access" and click "OK".
 10. Go back to the client computer and perform a gpudate in the Command Prompt. Then attempt to open the control panel. A restriction message pop-up denying access.
 <p float="left">
   <img src="/images/Part10/Part10-Step10.jpg" width="400"/>
