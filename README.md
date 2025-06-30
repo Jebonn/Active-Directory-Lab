@@ -237,7 +237,7 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 </p>
 
 ## 10. Implementing Group Policy Objects (GPOs)
-GPOs are policy settings that can be applied to different users and computers in the domain. A couple of basic GPOs will be created and applied to the users. One to force a wallpaper and one to restrict control panel access. Go back to Windows Server and open Group Policy Management (GPM) *(Server Manager -> Tools -> Group Policy Management)*.
+GPOs are policy settings that can be applied to different users and computers in the domain. A couple of basic GPOs will be created and applied to the users. One to force a wallpaper and one to restrict control panel access. In the Windows 11 VM, download a preferred wallaper to the C:\ drive. Go back to Windows Server and open Group Policy Management (GPM) *(Server Manager -> Tools -> Group Policy Management)*.
 
 ### Wallpaper GPO
 1. Right-click the domain controller under "Domains" and create a GPO. Name it "User Wallpaper Policy" and click "OK". Right-click on the created policy and click on "Edit".
@@ -247,12 +247,12 @@ GPOs are policy settings that can be applied to different users and computers in
 </p>
 
 2. Under "User Configuration" go to Policies -> Administrative Templates -> Desktop. Click "Desktop Wallpapers" then "Edit Policy Setting".
-3. Change the setting to "Enabled". Then download a preferred wallpaper. Under "Wallpaper Name" enter the path to that wallpaper. The Wallpaper Style can be changed to preference. Finish by clicking "Apply" and "OK".
+3. Change the setting to "Enabled". Under "Wallpaper Name" enter use C:\wallpaper.jpg (use the name, including the extension, of the downloaded wallpaper from earlier). The Wallpaper Style can be changed to preference. Finish by clicking "Apply" and "OK".
 <p float="left">
   <img src="/images/Part10/Part10-Step3.jpg" width="400"/>
 </p>
 
-4. Righ-click on an OU and click "Link an existing GPO". Select "User Wallpaper Policy" and click "OK". Users in that OU will have their wallpapers changed.
+4. Righ-click on an OU and click "Link an existing GPO". Select "User Wallpaper Policy" and click "OK".
 <p float="left">
   <img src="/images/Part10/Part10-Step4.jpg" width="400"/>
 </p>
