@@ -229,7 +229,9 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 </p>
 
 5. Enter the credentials of the Administrator account to join the domain. The VM will restart. *(The username is "Administrator" and password is what was chosen from step 10 in [Part 4](#4-install-windows-server-2022))*
-6. The log-in screen should now have an option for "Other user". Click on it and attempt log in using one of the user accounts created in [Part 7](#7-create-organization-units-ous--user-accounts).
+6. The log-in screen should now have an option for "Other user". Click on it and attempt log in using one of the user accounts created in [Part 7](#7-create-organization-units-ous--user-accounts). 
+
+*(Passwords can be reset in Active Directory Users and Computers -> right-click on the user -> reset password)*
 <p float="left">
   <img src="/images/Part9/Part9-Step6.jpg" width="400"/>
 </p>
@@ -237,4 +239,5 @@ Now that user accounts have been made, the other VM will be setup to connect to 
 ## 10. Implementing Group Policy Objects (GPOs)
 GPOs are policy settings that can be applied to different users and computers in the domain. A few simple GPOs will be created and applied to the users.
 
-1. Open Group Policy Management in the DC.
+1. Go back to Windows Server and open Group Policy Management *(Server Manager -> Tools -> Group Policy Management)*.
+2. 
