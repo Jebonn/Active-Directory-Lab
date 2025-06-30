@@ -266,3 +266,5 @@ GPOs are policy settings that can be applied to different users and computers in
 <p float="left">
   <img src="/images/Part10/Part10-Step10.jpg" width="400"/>
 </p>
+
+# End of Lab
