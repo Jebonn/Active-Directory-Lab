@@ -17,7 +17,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 ## 2. Download & Install
 1. Download VMware Workstation Pro, the Win Server 2022 .ISO file, and the Win 11 .ISO file mentioned in the [Downloadables](#downloadables) section above.
 2. Run VMWare .exe file. An installation pop-up window will appear. Click "Next" and check the License Agreemeent box.
-3. Then continue clicking "Next" through the rest of the installation pop-up windows to install. The default configurations during this process can be left as is or customized to preference.
+3. Then continue clicking "Next" through the rest to install. The default configurations during this process can be left as is or customized to preference.
 4. Once installation is complete, click "Finish" and open the program.
 <img src="/images/Part2/Part2-all.jpg" width="800">
 
