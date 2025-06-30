@@ -237,7 +237,7 @@ Now that a user account has been made, the other VM will be setup to connect to 
 ## 10. Implementing Group Policy Objects (GPOs)
 GPOs are policy settings that can be applied to different users and computers in the domain. Two basic GPOs will be created and applied to the users. One to force a wallpaper and one to restrict control panel access. In the Windows 11 VM, download a preferred wallaper to the C:\ drive. Go back to Windows Server and open Group Policy Management (GPM) *(Server Manager -> Tools -> Group Policy Management)*.
 
-### Wallpaper GPO
+### Wallpaper Policy
 1. Right-click the domain controller under "Domains" and create a GPO. Name it "User Wallpaper Policy" and click "OK". Right-click on the created policy and click on "Edit".
 <p float="left">
   <img src="/images/Part10/Part10-Step2a.jpg" width="400"/>
