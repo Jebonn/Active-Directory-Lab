@@ -19,7 +19,7 @@ This lab's goal is to become acquainted with virtual machines (VMs), active dire
 2. Run VMWare .exe file. An installation pop-up window will appear. Click "Next" and check the License Agreemeent box.
 3. Then continue clicking "Next" through the rest of the installation pop-up windows to install. The default configurations during this process can be left as is or customized to preference.
 4. Once installation is complete, click "Finish" and open the program.
-<img src="/images/Part2/Part2.png" width="800">
+<img src="/images/Part2/Part2-all.png" width="800">
 
 ## 3. Create two Virtual Machines
 1. Click "Create a New Virtual Machine" and choose the "Typical (recommended)" option.
